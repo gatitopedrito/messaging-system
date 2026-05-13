@@ -2,13 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Simple Messaging App</title>
+  <title>Messaging App</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="app">
     <h2>Messaging App</h2>
+
+    <div class="username-box">
+      <input id="usernameInput" type="text" placeholder="Enter username...">
+      <button onclick="setUsername()">Set</button>
+    </div>
 
     <div id="messages"></div>
 
@@ -21,3 +26,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
