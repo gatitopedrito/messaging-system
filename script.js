@@ -1,3 +1,5 @@
+<script type="module">
+  
 let messages = JSON.parse(localStorage.getItem("messages")) || [];
 let username = localStorage.getItem("username") || "User";
 
@@ -110,7 +112,7 @@ function addMessage(user, text) {
   box.scrollTop = box.scrollHeight;
 }
 
-<script type="module">
+
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-analytics.js";
